@@ -1,7 +1,34 @@
-/* @media screen and (max-width: 1024px) { 
-    body{
-        margin: 0;
-        padding: 0;
-        height: 300%;
-    }
-} */
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.dif-nav{
+    border: red 1px solid ;
+    
+}
+.logo{
+    border: red 1px solid ;
+    width: 30%;
+    height: auto;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.search{
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+}
+.dif-search{
+    padding: 5px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #C4C4C4;
+    border-style: none;
+}
+#dif-nav-link:hover{
+    color: #EF3C5F;
+}
