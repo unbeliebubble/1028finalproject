@@ -4,12 +4,11 @@ body{
 }
 
 .dif-nav{
-    border: red 1px solid ;
-    
+   
 }
 .logo{
-    border: red 1px solid ;
-    width: 30%;
+    
+    width: 15%;
     height: auto;
 }
 .logo img{
@@ -31,4 +30,14 @@ body{
 }
 #dif-nav-link:hover{
     color: #EF3C5F;
+}
+#dif-nav-option:hover{
+    color: #EF3C5F;
+}
+.nav-icon{
+    width: 35px;
+    height: 35px;
+}
+.nav-icon-section{
+    position: absolute;
 }
