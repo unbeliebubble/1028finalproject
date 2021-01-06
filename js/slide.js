@@ -1,5 +1,5 @@
 var slides = document.querySelectorAll('.slide');
-      var btns = document.querySelectorAll('.btn');
+      var btns = document.querySelectorAll('.dif-btn');
       let currentSlide = 1;
   
       // Javascript for image slider manual navigation
