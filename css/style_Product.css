@@ -5,6 +5,7 @@ body{
 .container{
     border: tomato 1px solid;
     overflow: hidden;
+   
 }
 .row{
     border: blue 1px solid;
@@ -18,19 +19,20 @@ body{
 
 
 /* product nav bar */
+
+.product .container{
+    background-color: #FFDED6;
+}
 a{
     color: gray;
-    font-size: 20px;
 }
 a:hover{
     color: #EF3C5F;
-    text-decoration-line: underline;
 }
-
-
-
-
-
+/* dropdown */
+.pd-box{
+    height: 900px;
+}
 
 
 
@@ -145,12 +147,12 @@ th{
 
 
 /* rwd */
-@media (max-width: 1200px){
+@media (min-width: 1200px){
   
 
 }
 
-@media (max-width: 786px){
+@media (min-width: 786px){
 
   td a{
     color: black;
@@ -183,13 +185,10 @@ th{
     margin-top: 80px;
 
   }
-  a{
-    color: gray;
-    font-size: 16px;
-}
+ 
 }
 
-@media (max-width: 480px){
+@media (min-width: 480px){
   
   .footer{
     display: none;
@@ -238,10 +237,10 @@ th{
     font-size: 8px;
     text-align: center;
   }
-  a{
+  /* a{
     color: gray;
-    font-size: 14px;
-}
+    font-size: 12px;
+} */
 }
                            
 
